@@ -1,0 +1,3 @@
+Algorithm,Avg Enc (µs),Avg Dec (µs),Avg Throughput (MB/s),Avg CPU Cycles,Avg Cycles/Byte,Avg Memory (KB),Avg Power (mW),Avg Entropy,Success Rate
+AES-256,283.4000,216.4000,22.19,"569,918",697.81,28.00,22815.00,7.6537,100%
+Ascon-128,81963.1750,73294.8250,0.09,"162,410,789",12610.13,9.00,15000.00,7.6708,100%

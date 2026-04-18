@@ -1,0 +1,9 @@
+torch>=1.12
+torchvision
+numpy
+scipy
+gym
+tqdm
+scikit-learn
+pandas
+matplotlib

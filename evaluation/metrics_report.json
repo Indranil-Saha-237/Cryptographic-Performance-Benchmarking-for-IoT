@@ -1,0 +1,157 @@
+{
+  "session_id": "20251228_220104",
+  "metrics": [
+    {
+      "timestamp": "2025-12-28T22:01:04.172828",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "AES-256",
+      "key_length": 256,
+      "data_size_bytes": 130,
+      "encrypt_time_\u00b5s": 138.699999979508,
+      "decrypt_time_\u00b5s": 47.20000003999303,
+      "total_time_\u00b5s": 185.90000001950102,
+      "throughput_mbps": 0.6669051162980483,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.172828",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "AES-256",
+      "key_length": 256,
+      "data_size_bytes": 1400,
+      "encrypt_time_\u00b5s": 80.09999999103457,
+      "decrypt_time_\u00b5s": 42.499999949541234,
+      "total_time_\u00b5s": 122.5999999405758,
+      "throughput_mbps": 10.890245053963246,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.172828",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "AES-256",
+      "key_length": 256,
+      "data_size_bytes": 13000,
+      "encrypt_time_\u00b5s": 153.89999998660642,
+      "decrypt_time_\u00b5s": 104.80000003099121,
+      "total_time_\u00b5s": 258.70000001759763,
+      "throughput_mbps": 47.923332479466225,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.173860",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "AES-256",
+      "key_length": 256,
+      "data_size_bytes": 100000,
+      "encrypt_time_\u00b5s": 658.2999999409367,
+      "decrypt_time_\u00b5s": 513.99999995283,
+      "total_time_\u00b5s": 1172.2999998937667,
+      "throughput_mbps": 81.35070515163964,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.177138",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "Ascon-128",
+      "key_length": 128,
+      "data_size_bytes": 130,
+      "encrypt_time_\u00b5s": 1036.6999999860127,
+      "decrypt_time_\u00b5s": 877.2000001044944,
+      "total_time_\u00b5s": 1913.900000090507,
+      "throughput_mbps": 0.06477750202568038,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.192137",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "Ascon-128",
+      "key_length": 128,
+      "data_size_bytes": 1400,
+      "encrypt_time_\u00b5s": 7390.200000031655,
+      "decrypt_time_\u00b5s": 7175.699999947938,
+      "total_time_\u00b5s": 14565.899999979592,
+      "throughput_mbps": 0.09166231011956835,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:04.279887",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "Ascon-128",
+      "key_length": 128,
+      "data_size_bytes": 13000,
+      "encrypt_time_\u00b5s": 45288.19999995903,
+      "decrypt_time_\u00b5s": 42861.3999999925,
+      "total_time_\u00b5s": 88149.59999995153,
+      "throughput_mbps": 0.14064460999582604,
+      "success": true,
+      "metadata": {}
+    },
+    {
+      "timestamp": "2025-12-28T22:01:05.166677",
+      "session_id": "20251228_220104",
+      "operation": "encryption",
+      "algorithm": "Ascon-128",
+      "key_length": 128,
+      "data_size_bytes": 100000,
+      "encrypt_time_\u00b5s": 467112.40000001906,
+      "decrypt_time_\u00b5s": 418570.89999996335,
+      "total_time_\u00b5s": 885683.2999999824,
+      "throughput_mbps": 0.10767667363788715,
+      "success": true,
+      "metadata": {}
+    }
+  ],
+  "summary": {
+    "total": {
+      "algorithm": "all",
+      "total_operations": 8,
+      "avg_encryption_time_\u00b5s": 65232.312,
+      "avg_decryption_time_\u00b5s": 58774.212,
+      "avg_throughput_mbps": 17.654,
+      "success_rate_percent": 100.0,
+      "avg_cpu_cycles": 0.0,
+      "avg_memory_usage_kb": 0.0,
+      "avg_power_consumption_mw": 0.0,
+      "avg_entropy_score": 0.0
+    },
+    "by_algorithm": {
+      "Ascon-128": {
+        "algorithm": "Ascon-128",
+        "total_operations": 4,
+        "avg_encryption_time_\u00b5s": 130206.875,
+        "avg_decryption_time_\u00b5s": 117371.3,
+        "avg_throughput_mbps": 0.101,
+        "success_rate_percent": 100.0,
+        "avg_cpu_cycles": 0.0,
+        "avg_memory_usage_kb": 0.0,
+        "avg_power_consumption_mw": 0.0,
+        "avg_entropy_score": 0.0
+      },
+      "AES-256": {
+        "algorithm": "AES-256",
+        "total_operations": 4,
+        "avg_encryption_time_\u00b5s": 257.75,
+        "avg_decryption_time_\u00b5s": 177.125,
+        "avg_throughput_mbps": 35.208,
+        "success_rate_percent": 100.0,
+        "avg_cpu_cycles": 0.0,
+        "avg_memory_usage_kb": 0.0,
+        "avg_power_consumption_mw": 0.0,
+        "avg_entropy_score": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+# Environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python internals
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Datasets (14GB+)
+archive/
+
+# Temporary / Local Files
+logs/
+results.zip
+.ipynb_checkpoints/
+# OS specific
+.DS_Store
+Thumbs.db
